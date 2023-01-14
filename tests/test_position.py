@@ -8,13 +8,13 @@ from maze import position
 
 @pytest.fixture
 def initial_position():
-    """Returns an iniital position"""
+    """Returns an initial position"""
     return position.Position(2, 4)
 
 
 @pytest.fixture
 def another_position():
-    """Returns an iniital position"""
+    """Returns an initial position"""
     return position.Position(1, 4)
 
 
